@@ -1,0 +1,221 @@
+body{
+font-family: arial;
+font-size: 14px;
+}
+
+#logo{
+background-color: black;
+padding: 8px;
+}
+
+nav{
+font-weight: bold;
+font-size: 18px;
+border-color: blue;
+border:2px;
+border-style: solid;
+}
+
+nav .nav-link{
+margin-left: 20px;
+padding-left: 15px;
+color:black;
+}
+
+nav .nav-link:hover{
+color: white;
+}
+
+.container{
+background-color: black;
+}
+
+aside > article> hr{
+color: white;
+margin-right: 300px;
+margin-left: 20px;
+margin-top: 20px;
+
+}
+
+aside > article >p{
+text-align: left;
+padding: 22px;
+font-size: 18px;
+color: black;
+font-family: times new roman;
+text-align: justify;
+}
+
+aside> article {
+background-color: #feab27;
+}
+
+#texto1 article > img{
+padding-top: 30px;
+}
+
+section> article{
+background-color: #feab27;
+}
+
+section> article >img{
+padding-top: 40px;
+padding-bottom: 40px
+}
+
+#texto article >p {
+text-align: right;
+padding: 22px;
+font-size: 18px;
+color: black;
+text-align: justify;
+}
+
+#texto article>img{
+padding-top: 22px;
+}
+
+#art2 article>h3{
+font-family: times new roman;
+color: white;;
+font-size: 25px;
+font-weight: bold;
+padding: 10px;
+}
+
+#art2 article>p{
+color: white;;
+font-size: 18px;
+font-style: italic;
+}
+
+#art2 article{
+
+border:2px;
+border-style: solid;
+background-color: black;
+}
+
+aside >article #icono{
+font-size: 30px;
+color: white;
+margin-top: 15px;
+
+}
+
+footer{
+background-color: black;
+color: white;;
+text-align: center;
+padding: 20px;
+
+}
+
+
+#galeria > article{
+background-color: black;;
+padding-top: 20px;
+color: white;
+font-weight: bold;
+}
+
+#galeria article >h2{
+color: black;
+font-size: 20px;
+font-family: times new roman;
+font-weight: bold;
+
+
+
+}
+#imagen{
+width: 260px;
+margin-right: 10px;
+float: left;
+border-radius: 10px;
+border-width: 2px;
+border-style: solid;
+border-color: white;;
+margin: 3px;
+margin-left: 5px;
+}
+
+
+#imagen img{
+border-radius: 10px;
+width: 100%;
+}
+
+#imagen img:hover{
+filter: grayscale(1);
+ transition-property: filter;
+ transition-duration: 1s; 
+}
+
+#enlacesv{
+text-align: center;
+font-weight: bold;
+border-radius: 5px;
+cursor: pointer;
+font-family: times new roman;
+font-size: 20px;
+}
+
+#enlacesv:hover{
+background-color: #feab27;
+}
+
+#videos > article{
+background-color: black;;
+padding-top: 20px;
+color: white;
+font-weight: bold;
+}
+
+#articulos > article{
+border:1px;
+border-color: white;
+border-style: solid;
+background-color: #feab27;
+color: black;
+font-family: times new roman;
+font-style: 20px;
+font-weight: bold;
+}
+
+
+
+
+
+#contactos .container{
+background-color: black;
+color: white;
+}
+
+.container > #titulo1  h1{
+color:white; 
+font-weight: bold;
+padding: 10px;
+}
+
+#map > iframe{
+border-radius: 10px;
+border-width: 2px;
+border-color: gray;
+border-style: solid;
+}
+
+.container > form >label{
+color: white;
+}
+
+.container >#titulo2 h2{
+color: white;
+padding: 10px;
+}
+
+.container> form #boton{
+background-color: #feab27;
+padding: 10px;
+}
